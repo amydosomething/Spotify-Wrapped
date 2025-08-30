@@ -5,6 +5,25 @@ It helps you explore your music taste evolution, listening patterns, and get sma
 
 ---
 
+## 📸 Screenshots
+
+### 🎵 Top Tracks
+![Top Tracks](screenshots/tracks.png)
+
+### 🎤 Top Artists  
+![Top Artists](screenshots/artists.png)
+
+### 🎧 Top Genres
+![Top Genres](screenshots/genres.png)
+
+### ⏰ Recently Played
+![Recently Played](screenshots/recents.png)
+
+### 🤖 AI-Powered Insights
+![AI Insights](screenshots/ai-insights.png)
+
+---
+
 ## 🎵 Key Features
 
 ### 🔗 Spotify Integration
@@ -28,26 +47,33 @@ The app fetches your Spotify data and sends it to Ollama for analysis, providing
 
 ## ⚙️ Setup Instructions
 
-# 1) Clone the Repository
-```git clone https://github.com/amydosomething/Spotify-Wrapped.git```
+### 1) Clone the Repository
+```bash
+git clone https://github.com/amydosomething/Spotify-Wrapped.git
+```
 
-# 2) Move into the project folder
-```cd Spotify-Wrapped```
+### 2) Move into the project folder
+```bash
+cd Spotify-Wrapped
+```
 
-# 3) Move into the "app" subfolder (since the main code is inside it)
-```cd app```
+### 3) Move into the "app" subfolder (since the main code is inside it)
+```bash
+cd app
+```
 
-# 4) Install dependencies
-```npm install```
+### 4) Install dependencies
+```bash
+npm install
+```
 
-
-### 3) Spotify Developer Credentials
+### 5) Spotify Developer Credentials
 1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
 2. Create a new app
 3. Add this Redirect URI in the settings: `http://127.0.0.1:3000/api/auth/callback`
 4. Copy the **Client ID** and **Client Secret** into your `.env.local`
 
-### 4) Environment Configuration
+### 6) Environment Configuration
 Create a `.env.local` file in the root directory:
 
 ```env
@@ -70,7 +96,7 @@ NEXTAUTH_SECRET=your_generated_secret_here
 node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
 ```
 
-### 5) Install and Setup Ollama
+### 7) Install and Setup Ollama
 1. Install Ollama from [ollama.ai](https://ollama.ai)
 2. Pull the Llama3 model:
 ```bash
@@ -81,7 +107,7 @@ ollama pull llama3
 ollama serve
 ```
 
-### 6) Run the App
+### 8) Run the App
 Start the development server:
 ```bash
 npm run dev
@@ -121,4 +147,3 @@ The app will be available at `http://127.0.0.1:3000`
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
