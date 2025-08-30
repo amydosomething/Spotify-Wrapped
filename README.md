@@ -28,16 +28,18 @@ The app fetches your Spotify data and sends it to Ollama for analysis, providing
 
 ## ⚙️ Setup Instructions
 
-### 1) Clone the Repository
-```bash
+# 1) Clone the Repository
 git clone https://github.com/amydosomething/Spotify-Wrapped.git
-cd Spotify-Wrapped
-```
 
-### 2) Install Dependencies
-```bash
+# 2) Move into the project folder
+cd Spotify-Wrapped
+
+# 3) Move into the "app" subfolder (since the main code is inside it)
+cd app
+
+# 4) Install dependencies
 npm install
-```
+
 
 ### 3) Spotify Developer Credentials
 1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
