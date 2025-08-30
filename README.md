@@ -15,7 +15,6 @@ It helps you explore your music taste evolution, listening patterns, and get sma
   - Last 6 months  
   - Last 1 year
 - **Recently played songs** with timestamps
-- Time range selector to switch between periods
 
 ### 🤖 AI-Powered Insights (via Ollama Llama3)
 - **Taste Evolution:** See how your music preferences change over time  
